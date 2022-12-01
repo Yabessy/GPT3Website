@@ -12,7 +12,7 @@ const Menu = () => (
       <a href="#wgpt3">What is GPT</a>
     </p>
     <p>
-      <a href="#possibilty">Open AI</a>
+      <a href="#possibility">Open AI</a>
     </p>
     <p>
       <a href="#features">Case Studies</a>
@@ -52,13 +52,13 @@ function Navbar() {
             size={27}
             onClick={() => setToggleMenu(true)}
           />
-        )}  
+        )}
         {toggleMenu && (
           <div className="gpt3__navbar-menu_container scale-up-center">
             <div className="gpt3__navbar-menu_container-links">
               <Menu />
               <div className="gpt3__navbar-menu_container-links-sign">
-                <p>Sign In</p>
+                <p>Sign In</p> 
                 <button type="button">SignUp</button>
               </div>
             </div>
